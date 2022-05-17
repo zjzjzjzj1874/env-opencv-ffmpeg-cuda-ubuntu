@@ -2,7 +2,7 @@ ARG OPENCV_VERSION
 ARG CUDA_VERSION
 ARG FFMPEG_VERSION
 
-FROM khlipeng/opencv-cuda-devel:$OPENCV_VERSION-$CUDA_VERSION-$FFMPEG_VERSION  AS gocv-cuda-devel
+FROM kbdsnail/opencv-cuda-devel:$OPENCV_VERSION-$CUDA_VERSION-$FFMPEG_VERSION  AS gocv-cuda-devel
 
 LABEL maintainer="khlipeng"
 
