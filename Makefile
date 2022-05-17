@@ -7,8 +7,6 @@ PLATFORM := linux/amd64,linux/arm64
 
 opencv-cuda-runtime:
 	docker buildx build --push --progress plain --platform=${PLATFORM}	\
-		--cache-from "type=local,src=/tmp/.buildx-cache" \
-		--cache-to "type=local,dest=/tmp/.buildx-cache" \
 		--file=opencv-cuda_runtime-ubuntu.Dockerfile \
 		--tag=khlipeng/opencv-cuda-runtime:${OPENCV_VERSION}-${CUDA_VERSION}-${FFMPEG_VERSION} \
 		--build-arg=OPENCV_VERSION=${OPENCV_VERSION}	\
@@ -18,8 +16,6 @@ opencv-cuda-runtime:
 
 opencv-cuda-devel:
 	docker buildx build --push --progress plain --platform=${PLATFORM}	\
-		--cache-from "type=local,src=/tmp/.buildx-cache" \
-		--cache-to "type=local,dest=/tmp/.buildx-cache" \
 		--file=opencv-cuda_devel-ubuntu.Dockerfile \
 		--tag=khlipeng/opencv-cuda-devel:${OPENCV_VERSION}-${CUDA_VERSION}-${FFMPEG_VERSION}	\
 		--build-arg=OPENCV_VERSION=${OPENCV_VERSION}	\
