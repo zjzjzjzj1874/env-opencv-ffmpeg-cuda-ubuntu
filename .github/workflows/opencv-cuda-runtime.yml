@@ -10,12 +10,7 @@ env:
   REGISTRY: ghcr.io
 
 jobs:
-  build-runtime:
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        version: [10, 12, 14]
-
+  build:
     runs-on: ubuntu-latest
     permissions:
       contents: read
