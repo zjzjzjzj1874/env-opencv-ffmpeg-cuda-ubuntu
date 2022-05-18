@@ -1,1 +1,1 @@
-{"buildTargets":["gocv-cuda-devel","opencv-cuda-devel","opencv-cuda-runtime"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
+{"buildTargets":["go-cuda-devel","opencv-cuda-devel","opencv-cuda-runtime"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}

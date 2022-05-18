@@ -10,22 +10,19 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Tue May 17 14:22:59 2022
+# Make data base, printed on Wed May 18 10:10:55 2022
 
 # Variables
 
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
+ 
 # automatic
 ?F = $(notdir $?)
 # makefile (from `Makefile', line 3)
-GOLANG_VERSION := 1.17
-# environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
+GOLANG_VERSION := 1.18
 # environment
 VSCODE_LOG_NATIVE = false
-# environment
-NVM_INC = /Users/lipeng/.nvm/versions/node/v17.5.0/include/node
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # automatic
@@ -37,61 +34,37 @@ CURDIR := /Users/lipeng/workspace/golang/src/github.com/khlipeng/env-opencv-ffmp
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"42e84e0914b17800d483f69e299e1b00.zh-cn","_translationsConfigFile":"/Users/lipeng/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/tcf.json","_cacheRoot":"/Users/lipeng/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn","_resolvedLanguagePackCoreLocation":"/Users/lipeng/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/da15b6fd3ef856477bf6f4fb29ba1b7af717770d","_corruptedFile":"/Users/lipeng/Library/Application Support/Code/clp/42e84e0914b17800d483f69e299e1b00.zh-cn/corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{},"_languagePackSupport":true}
 # environment
 _ = /usr/bin/make
 # makefile (from `Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
 # environment
-GO111MODULE = on
-# environment
-AUTOJUMP_SOURCED = 1
-# environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/vm/zzfwb7bd047480pln9z3tdyh0000gn/T/vscode-ipc-a252beb4-b589-4d46-8ad3-02b52c2644f9.sock
+__CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_CWD = /Users/lipeng/workspace/golang/src/github.com/khlipeng/env-opencv-ffmpeg-cuda-ubuntu
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/bk/z6hvq79j6hb_s4_tcldmqkzr0000gn/T/vscode-ipc-535ff1e6-3315-43d5-8088-7c8709912a0e.sock
 # environment
-GOPROXY = https://goproxy.cn,direct
+VSCODE_CWD = /
 # environment
-Apple_PubSub_Socket_Render = /private/tmp/com.apple.launchd.tpu3TGg1RV/Render
-# environment
-PATH = /Users/lipeng/.nvm/versions/node/v17.5.0/bin:/usr/local/opt/krb5/sbin:/usr/local/opt/krb5/bin:/Users/lipeng/.krew/bin:/Users/lipeng/workspace/golang/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/lipeng/workspace/golang/bin:/usr/local/go/bin:/etc/influxdb/usr/bin:/usr/local/redis/src:/etc/influxdb/usr/bin:/usr/local/redis/src:/usr/local/ffmpeg:/Users/lipeng/.krew/bin:/usr/local/istio-1.8.1/bin:/usr/local/natapp:/Applications/LibreOffice.app/Contents/MacOS:/usr/local/phantomjs/bin
-# environment
-GOROOT = /usr/local/go
-# environment
-CGO_ENABLED = 0
+PATH = /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 # environment
 LSCOLORS = Gxfxcxdxbxegedabagacad
-# environment
-KUBEPKG_REMOTE_REGISTRY_ENDPOINT = https://harbor.innoai.tech
-# environment
-GOPATH = /Users/lipeng/workspace/golang
-# environment
-NVM_BIN = /Users/lipeng/.nvm/versions/node/v17.5.0/bin
 # environment
 VSCODE_LOG_STACK = false
 # environment
 ELECTRON_RUN_AS_NODE = 1
-# environment
-KUBECONFIG = /Users/lipeng/.kube/config:/Users/lipeng/.kube/industai-dev-3060-gpu.config:/Users/lipeng/.kube/industai-dev.config
-# environment
-KUBEPKG_REMOTE_REGISTRY_USERNAME = 94iV2eRUpZ1mAM9Dtsx1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.LRUG9nm26j/Listeners
-# environment
-NODE_OPTIONS = $(subst ,, )
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.NE9btQJVCF/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
 PWD = /Users/lipeng/workspace/golang/src/github.com/khlipeng/env-opencv-ffmpeg-cuda-ubuntu
-# environment
-GOENV = DEV
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
@@ -103,15 +76,11 @@ OPENCV_VERSION := 4.4.0
 # default
 MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
 # environment
-VSCODE_CLI = 1
-# environment
 VSCODE_CODE_CACHE_PATH = /Users/lipeng/Library/Application Support/Code/CachedData/da15b6fd3ef856477bf6f4fb29ba1b7af717770d
 # environment
 LOGNAME = lipeng
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
-# environment
-NVM_CD_FLAGS = -q
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 ZSH = /Users/lipeng/.oh-my-zsh
 # environment
@@ -125,13 +94,7 @@ MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
-SHLVL = 3
-# environment
-GO15VENDOREXPERIMENT = 1
-# environment
-TERM_SESSION_ID = E15C9696-A5BD-4E36-835F-4B3CDA5F95BD
-# environment
-CARGO_NET_GIT_FETCH_WITH_CLI = true
+SHLVL = 1
 # default
 MAKE_VERSION := 3.81
 # environment
@@ -139,25 +102,19 @@ USER = lipeng
 # makefile
 .DEFAULT_GOAL := opencv-cuda-runtime
 # environment
-HOMEBREW_BOTTLE_DOMAIN = https://mirrors.ustc.edu.cn/homebrew-bottles
-# environment
 LESS = -R
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
-# environment
-KUBEPKG_REMOTE_REGISTRY_PASSWORD = pull-only
 # makefile (from `Makefile', line 2)
-CUDA_VERSION := 11.0
+CUDA_VERSION := 11.4.0
 # default
 MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
 # makefile (from `Makefile', line 5)
 FFMPEG_VERSION := 5.0
-# environment
-TERM_PROGRAM = Apple_Terminal
 # default
 .VARIABLES := 
 # environment
-TMPDIR = /var/folders/vm/zzfwb7bd047480pln9z3tdyh0000gn/T/
+TMPDIR = /var/folders/bk/z6hvq79j6hb_s4_tcldmqkzr0000gn/T/
 # automatic
 *F = $(notdir $*)
 # environment
@@ -169,19 +126,15 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-TERM_PROGRAM_VERSION = 421.2
-# environment
-NVM_DIR = /Users/lipeng/.nvm
-# environment
-XPC_SERVICE_NAME = 0
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.840404.840410
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
-# environment
-GONOSUMDB = git.innoai.tech/*,git.querycap.com/*,github.com/snail-tools/*
 # automatic
 +F = $(notdir $+)
 # environment
-__CF_USER_TEXT_ENCODING = 0x1F5:0:0
+__CF_USER_TEXT_ENCODING = 0x1F5:0x19:0x34
+# environment
+COMMAND_MODE = unix2003
 # makefile (from `Makefile', line 6)
 PLATFORM := linux/amd64,linux/arm64
 # default
@@ -198,20 +151,15 @@ LC_ALL = C
 SUFFIXES := 
 # makefile (from `Makefile', line 4)
 GOCV_VERSION := 0.25.0
-# default
-.INCLUDE_DIRS = /usr/local/include
 # environment
 MAKELEVEL := 0
 # environment
-AUTOJUMP_ERROR_PATH = /Users/lipeng/Library/autojump/errors.log
-# environment
 LANG = C
 # environment
-TERM = xterm-256color
-# environment
-VSCODE_PID = 680
+VSCODE_PID = 8925
 # variable set hash-table stats:
-# Load=98/1024=10%, Rehash=0, Collisions=3/132=2%
+ 
+# Load=71/1024=7%, Rehash=0, Collisions=1/104=1%
 
 # Pattern-specific Variable Values
 
@@ -219,15 +167,21 @@ VSCODE_PID = 680
 
 # Directories
 
-# . (device 16777220, inode 66937912): 12 files, no impossibilities.
+# . (device 16777229, inode 895445): 11 files, no impossibilities.
 
-# 12 files, no impossibilities in 1 directories.
+# 11 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
 # No implicit rules.
 
 # Files
+
+# Not a target:
+.:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 opencv-cuda-devel:
 #  Implicit rule search has not been done.
@@ -238,7 +192,7 @@ opencv-cuda-devel:
 	--cache-from "type=local,src=/tmp/.buildx-cache" \
 	--cache-to "type=local,dest=/tmp/.buildx-cache" \
 	--file=opencv-cuda_devel-ubuntu.Dockerfile \
-	--tag=bryantrh/opencv-cuda-devel:${OPENCV_VERSION}-${CUDA_VERSION}-${FFMPEG_VERSION}	\
+	--tag=khlipeng/opencv-cuda-devel:${OPENCV_VERSION}-${CUDA_VERSION}-${FFMPEG_VERSION}	\
 	--build-arg=OPENCV_VERSION=${OPENCV_VERSION}	\
 	--build-arg=CUDA_VERSION=${CUDA_VERSION}	\
 	--build-arg=FFMPEG_VERSION=${FFMPEG_VERSION}	\
@@ -249,12 +203,13 @@ opencv-cuda-runtime:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+ 
 #  commands to execute (from `Makefile', line 9):
 	docker buildx build --push --progress plain --platform=${PLATFORM}	\
 	--cache-from "type=local,src=/tmp/.buildx-cache" \
 	--cache-to "type=local,dest=/tmp/.buildx-cache" \
 	--file=opencv-cuda_runtime-ubuntu.Dockerfile \
-	--tag=bryantrh/opencv-cuda-runtime:${OPENCV_VERSION}-${CUDA_VERSION}-${FFMPEG_VERSION} \
+	--tag=khlipeng/opencv-cuda-runtime:${OPENCV_VERSION}-${CUDA_VERSION}-${FFMPEG_VERSION} \
 	--build-arg=OPENCV_VERSION=${OPENCV_VERSION}	\
 	--build-arg=CUDA_VERSION=${CUDA_VERSION}	\
 	--build-arg=FFMPEG_VERSION=${FFMPEG_VERSION}	\
@@ -273,33 +228,27 @@ all:
 # Not a target:
 .SUFFIXES:
 #  Implicit rule search has not been done.
- 
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-17 14:22:31
+#  Last modified 2022-05-17 16:18:35
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
-gocv-cuda-devel:
+go-cuda-devel: .
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 31):
-	docker buildx build --progress=plain --push \
-	--platform=${PLATFORM}	\
-	--file=tmp.Dockerfile \
-	--tag=bryantrh/opencv-cuda-devel:4.4.0-11.0-5.0 \
-	.
 	docker buildx build --push --progress plain \
 	--platform=${PLATFORM} \
-	--file=gocv-cuda_devel-ubuntu.Dockerfile \
-	--tag=bryantrh/gocv-cuda-devel:${GOLANG_VERSION}-${OPENCV_VERSION}-${CUDA_VERSION}-${FFMPEG_VERSION} \
+	--file=go-cuda_devel-ubuntu.Dockerfile \
+	--tag=khlipeng/go-cuda-devel:${GOLANG_VERSION}-${OPENCV_VERSION}-${CUDA_VERSION}-${FFMPEG_VERSION} \
 	--build-arg=GOLANG_VERSION=${GOLANG_VERSION}	\
 	--build-arg=OPENCV_VERSION=${OPENCV_VERSION}	\
 	--build-arg=CUDA_VERSION=${CUDA_VERSION}	\
@@ -315,7 +264,7 @@ gocv-cuda-devel:
 #  File has not been updated.
 
 # files hash-table stats:
-# Load=7/1024=1%, Rehash=0, Collisions=0/19=0%
+# Load=8/1024=1%, Rehash=0, Collisions=0/21=0%
 # VPATH Search Paths
 
 # No `vpath' search paths.
@@ -327,6 +276,6 @@ gocv-cuda-devel:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Tue May 17 14:22:59 2022
+# Finished Make data base on Wed May 18 10:10:55 2022
 
  
