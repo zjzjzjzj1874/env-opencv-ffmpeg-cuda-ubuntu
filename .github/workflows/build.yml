@@ -1,7 +1,6 @@
 name: build
 
 on:
-on:
   push:
     paths:
       - '.github/workflows/build.yml'

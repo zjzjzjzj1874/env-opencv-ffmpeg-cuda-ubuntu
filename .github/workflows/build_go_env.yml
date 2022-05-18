@@ -1,7 +1,6 @@
 name: build_go_env
 
 on:
-on:
   push:
     paths:
       - '.github/workflows/build_go_env.yml'
