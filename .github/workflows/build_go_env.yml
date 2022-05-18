@@ -13,7 +13,6 @@ env:
 jobs:
   build-go-cuda-devel:
     runs-on: ubuntu-latest
-    needs: build-opencv-cuda-devel
     permissions:
       contents: read
       packages: write
