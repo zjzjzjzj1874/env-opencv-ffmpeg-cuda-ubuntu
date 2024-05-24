@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
             wget curl bash  build-essential  && \
             rm -rf /var/lib/apt/lists/*
 
-#install ffmpeg
+#install  ffmpeg
 ARG FFMPEG_VERSION
 ENV FFMPEG_VERSION $FFMPEG_VERSION
 
