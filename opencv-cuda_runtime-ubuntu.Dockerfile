@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
             gcc make libssl-dev git build-essential cmake pkg-config unzip libgtk2.0-dev \
             ca-certificates libcurl4-openssl-dev \
             libtbb2 libtbb-dev \
-            libjpeg-dev libpng-dev libtiff-dev libdc1394-22-dev \
+            libjpeg-dev libpng-dev libtiff-dev libdc1394-dev \
             wget curl bash  build-essential  && \
             rm -rf /var/lib/apt/lists/*
 
