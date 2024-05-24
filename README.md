@@ -9,7 +9,7 @@ opencv + ffmpeg + cuda + ubuntu
 + ffmpeg: 5.0
 
 ## New Version
-+ ubuntu: 20.04
++ ubuntu: 22.04
 + golang: 1.22.0
 + opencv: 4.4.0
 + nvidia/cuda: 12.4.0

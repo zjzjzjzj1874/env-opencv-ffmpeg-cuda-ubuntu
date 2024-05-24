@@ -1,5 +1,5 @@
 ARG CUDA_VERSION
-FROM nvidia/cuda:$CUDA_VERSION-runtime-ubuntu20.04
+FROM nvidia/cuda:$CUDA_VERSION-runtime-ubuntu22.04
 
 LABEL maintainer="khlipeng"
 
