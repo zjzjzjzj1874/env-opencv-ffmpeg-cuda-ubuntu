@@ -23,7 +23,7 @@ opencv-cuda-devel:
 		--build-arg=FFMPEG_VERSION=${FFMPEG_VERSION}	\
 		.
 
-go-cuda-devel:		.
+go-cuda-devel:	.
 	docker buildx build --push --progress plain \
 		--platform=${PLATFORM} \
 		--file=go-cuda_devel-ubuntu.Dockerfile \
