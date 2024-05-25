@@ -15,7 +15,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
             git software-properties-common && \
             rm -rf /var/lib/apt/lists/*
 
-RUN set -eux; curl -o go.tgz -fsSL https://dl.google.com/go/go${GOLANG_VERSION}.linux-${TARGETARCH}.tar.gz && \
+RUN set -eux; curl -o go.tgz -fsSL https://go.dev/dl/go${GOLANG_VERSION}.linux-${TARGETARCH}.tar.gz && \
             tar -C /usr/local -xf go.tgz && \
             rm go.tgz
             
