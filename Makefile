@@ -27,7 +27,7 @@ go-cuda-devel:		.
 	docker buildx build --push --progress plain \
 		--platform=${PLATFORM} \
 		--file=go-cuda_devel-ubuntu.Dockerfile \
-		--tag=ghcr.io/khlipeng/go-cuda-devel:${GOLANG_VERSION}-${OPENCV_VERSION}-${CUDA_VERSION}-${FFMPEG_VERSION} \
+		--tag=zjzjzjzj1874/go-cuda-devel:${GOLANG_VERSION}-${OPENCV_VERSION}-${CUDA_VERSION}-${FFMPEG_VERSION} \
 		--build-arg=GOLANG_VERSION=${GOLANG_VERSION}	\
 		--build-arg=OPENCV_VERSION=${OPENCV_VERSION}	\
 		--build-arg=CUDA_VERSION=${CUDA_VERSION}	\
