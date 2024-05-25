@@ -18,7 +18,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 RUN set -eux; curl -o go.tgz -fsSL https://go.dev/dl/go${GOLANG_VERSION}.linux-${TARGETARCH}.tar.gz && \
             tar -C /usr/local -xf go.tgz && \
             rm go.tgz
-            
 
 ENV GOPATH /go
 ENV PATH $GOPATH/bin:/usr/local/go/bin:$PATH
